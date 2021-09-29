@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'messages/index'
   resources :users, only: [:edit, :update]
   resources :rooms , only: [:index]
+  resources :chats, only: [:new, :create]
 end
