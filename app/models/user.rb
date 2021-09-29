@@ -5,4 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   validates :name, presence: true
+
+  has_many :chat_users
+  has_many :chats, through: :chat_users
 end
