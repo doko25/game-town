@@ -15,7 +15,7 @@
 
 .side-bar {
   background-color: skyblue;
-  width: 400px;
+  width: 100vw;
   height: calc(100vh - 200px);
 }
 
